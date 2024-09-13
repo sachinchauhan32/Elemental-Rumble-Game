@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./Images/background\ image.jpg);
+    background-size: cover;
+}
+
+h1{
+    background-color: #081b31;
+    
+    text-align: center;
+    color: #ffffff;
+    height: 5.3rem;
+    line-height: 5rem;
+}
+.game{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   flex-direction: column;
+}
+.choices{
+    margin-top: 5rem;
+    height: 30vh;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+
+
+}
+.choice{
+    height: 22vh;
+    width: 10vw;
+    border-radius: 50%;
+    
+}
+.choice:hover{
+    cursor: pointer;
+    outline: 5px solid #081b31 ;
+}
+.choice i{
+    line-height: 10rem;
+    height: 22vh;
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    font-size: 12vh;
+    border: none;
+    border-radius: 50%;
+
+}
+
+.stone{
+    background-color: rgb(248, 98, 98);
+}
+.paper{
+    background-color: rgb(235, 103, 235);
+}
+.scissors{
+    background-color: rgb(131, 131, 235);
+}
+.scoreboard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+    margin-top: 3rem;
+}
+.myscore, .compscore{
+    font-size: 5rem;
+}
+.youscore, .compsc{
+font-size: 2rem;
+}
+.movemsg{
+   
+    
+    border: none;
+   
+    padding: 1rem;
+    margin-top: 3rem;
+}
+.turnmsg{
+    background-color: #081b31;
+    color: #ffffff;
+    border-radius: 3rem;
+    padding: 1rem;
+    font-size: 1.7rem;
+    display: inline;
+}
